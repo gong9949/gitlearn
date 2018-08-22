@@ -13,6 +13,12 @@ git reflog
 
 工作区 ->暂存区 ->分支
 
+20180822
+rm file
+git rm  file
+
+
+this is 以前的阅读：201801：
 
 因为Git跟踪并管理的是修改，而非文件。
 
@@ -52,7 +58,6 @@ git commit -m "remove test.txt"
  
 git checkout -- test.txt
 git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
-
 
 
 VX：wei1873543773
