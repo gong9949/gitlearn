@@ -1,0 +1,7 @@
+git tag <tagname>
+git tag -a tagname -m 'thisia a tag' 
+git push origin tagname
+git push origin --tags
+git tag -d tagname
+git push origin:refs/tags/tagname
+
