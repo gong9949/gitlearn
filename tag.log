@@ -4,4 +4,6 @@ git push origin tagname
 git push origin --tags
 git tag -d tagname
 git push origin:refs/tags/tagname
+获取git 打好tag的代码：
+git checkout -b branch_name tag_name
 
